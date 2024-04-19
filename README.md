@@ -19,19 +19,19 @@ This Django project implements a REST API endpoint that calculates the number of
 
 //Navigate to the project directory:
 
-<!-- cd wikipedia-loop-checker
-Create and activate a virtual environment (optional but recommended): -->
+cd wikipedia-loop-checker
+Create and activate a virtual environment (optional but recommended):
 
-<!-- python -m venv env
+python -m venv env
 source env/bin/activate  # On Windows, use `env\Scripts\activate`
-Install the required dependencies: -->
+Install the required dependencies:
 
-<!--pip install -r requirements.txt
+pip install -r requirements.txt
 Usage
-Start the Django development server:  -->
+Start the Django development server: 
 
-<!-- python manage.py runserver
-Send a POST request to the /api/wikipedia-loop/ endpoint with the url parameter containing the Wikipedia URL to start the loop: -->
+python manage.py runserver
+Send a POST request to the /api/wikipedia-loop/ endpoint with the url parameter containing the Wikipedia URL to start the loop:
 
-<!-- POST /api/wikipedia-loop/
-Content-Type: application/json -->
+ POST /api/wikipedia-loop/
+Content-Type: application/json 
