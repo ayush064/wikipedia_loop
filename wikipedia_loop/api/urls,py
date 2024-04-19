@@ -1,0 +1,6 @@
+from django.urls import path
+from .views import WikipediaLoopView
+
+urlpatterns = [
+    path('wikipedia-loop/', WikipediaLoopView.as_view(), name='wikipedia-loop'),
+]
